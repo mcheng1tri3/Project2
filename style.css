@@ -112,7 +112,7 @@ text-align: center;
 
 /* ---------------------------Desktop ------------------------ */
 
-@media only screen and (min-width: 801px) and (max-width: 2000px)
+@media only screen and (min-width: 1113px) and (max-width: 2000px)
 {
 
 .DESKTOP-SIZING{
@@ -132,7 +132,7 @@ text-align: center;
 
 /* ---------------------------Ipad ------------------------ */
 
-@media only screen and (min-width: 601px) and (max-width: 800px)
+@media only screen and (min-width: 601px) and (max-width: 1112px)
 {
 
 .DESKTOP-SIZING{
