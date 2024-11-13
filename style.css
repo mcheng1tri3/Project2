@@ -1,0 +1,170 @@
+/* ----------------------Desktop ----------------------- */
+
+body {
+    background-color: #FEFCE5;
+}
+
+.title{
+font-family: Kiln Sans;
+font-size: 1.2em;
+text-align: center;
+}
+
+.bodycopy{
+font-family: Adobe Caslon Pro;
+font-size: 5em;
+text-align: center;
+}
+
+.div1{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #FEFCE5;
+}
+
+
+.div2{
+    height:20vh;
+    width: auto;
+    background-color: #FEFCE5;
+}
+}
+
+/* -----------------------Ipad -------------------------- */
+
+body {
+    background-color: #FEFCE5;
+}
+
+.title{
+font-family: Kiln Sans;
+font-size: 1.2em;
+text-align: center;
+}
+
+.bodycopy{
+font-family:Adobe Caslon Pro;
+font-size: 5em;
+text-align: center;
+}
+
+.imageChanger{
+text-align: center;
+}
+
+.div6{
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div6 img{
+    height: 300px;
+    width: auto;
+    visibility: hidden;
+}
+
+.div3{
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -80px;
+}
+
+.div3 button{
+    margin-right: 21%;
+    background-color: white;
+    font-family: Adobe Caslon Pro;
+    border: 1px solid darkblue;
+    padding: 5px;
+
+}
+
+#startButton {
+    margin-left:17%;
+}
+
+#image4 {
+    width: 95%;
+}
+
+.div4{
+    height:15vh;
+    width: auto;
+}
+
+
+/* ---------------------------Iphone ------------------------ */
+
+
+.myimage {
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+
+
+
+
+
+/* ---------------------------Desktop ------------------------ */
+
+@media only screen and (min-width: 801px) and (max-width: 2000px)
+{
+
+.DESKTOP-SIZING{
+    display: block;
+}
+
+.IPHONE-SIZING{
+    display: none;
+}
+
+.IPAD-SIZING{
+    display: none;
+}
+}
+
+
+
+/* ---------------------------Ipad ------------------------ */
+
+@media only screen and (min-width: 601px) and (max-width: 800px)
+{
+
+.DESKTOP-SIZING{
+    display: none;
+}
+
+.IPHONE-SIZING{
+    display: none;
+}
+
+.IPAD-SIZING{
+    display: block;
+}
+}
+
+
+
+/* ---------------------------Iphone ------------------------ */
+
+@media only screen and (max-width: 600px)
+{
+
+.DESKTOP-SIZING{
+    display: none;
+}
+
+.IPHONE-SIZING{
+    display: block;
+}
+
+.IPAD-SIZING{
+    display: none;
+}
+}
+
