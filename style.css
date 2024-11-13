@@ -1,5 +1,22 @@
 /* ----------------------Desktop ----------------------- */
 
+/* ---------------------------Desktop ------------------------ */
+
+@media only screen and (min-width: 1113px) and (max-width: 2000px)
+{
+
+.DESKTOP-SIZING{
+    display: block;
+}
+
+.IPHONE-SIZING{
+    display: none;
+}
+
+.IPAD-SIZING{
+    display: none;
+}
+
 body {
     background-color: #FEFCE5;
 }
@@ -31,6 +48,22 @@ text-align: center;
 }
 
 /* -----------------------Ipad -------------------------- */
+
+@media only screen and (min-width: 391px) and (max-width: 1112px)
+{
+
+.DESKTOP-SIZING{
+    display: none;
+}
+
+.IPHONE-SIZING{
+    display: none;
+}
+
+.IPAD-SIZING{
+    display: block;
+}
+
 
 body {
     background-color: #FEFCE5;
@@ -94,10 +127,24 @@ text-align: center;
     height:15vh;
     width: auto;
 }
-
+}
 
 /* ---------------------------Iphone ------------------------ */
 
+@media only screen and (max-width: 390px)
+{
+
+.DESKTOP-SIZING{
+    display: none;
+}
+
+.IPHONE-SIZING{
+    display: block;
+}
+
+.IPAD-SIZING{
+    display: none;
+}
 
 .myimage {
     width: 100vw;
@@ -105,66 +152,13 @@ text-align: center;
     position: relative;
 }
 
-
-
-
-
-
-/* ---------------------------Desktop ------------------------ */
-
-@media only screen and (min-width: 1113px) and (max-width: 2000px)
-{
-
-.DESKTOP-SIZING{
-    display: block;
-}
-
-.IPHONE-SIZING{
-    display: none;
-}
-
-.IPAD-SIZING{
-    display: none;
-}
 }
 
 
 
-/* ---------------------------Ipad ------------------------ */
-
-@media only screen and (min-width: 601px) and (max-width: 1112px)
-{
-
-.DESKTOP-SIZING{
-    display: none;
-}
-
-.IPHONE-SIZING{
-    display: none;
-}
-
-.IPAD-SIZING{
-    display: block;
-}
-}
 
 
 
-/* ---------------------------Iphone ------------------------ */
 
-@media only screen and (max-width: 600px)
-{
 
-.DESKTOP-SIZING{
-    display: none;
-}
-
-.IPHONE-SIZING{
-    display: block;
-}
-
-.IPAD-SIZING{
-    display: none;
-}
-}
 
