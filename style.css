@@ -1,5 +1,3 @@
-/* ----------------------Desktop ----------------------- */
-
 /* ---------------------------Desktop ------------------------ */
 
 @media only screen and (min-width: 1113px) and (max-width: 2000px)
@@ -131,25 +129,27 @@ text-align: center;
 
 /* ---------------------------Iphone ------------------------ */
 
-@media only screen and (max-width: 390px)
+@media only screen and (max-width: 390px) 
 {
 
 .DESKTOP-SIZING{
-    display: none;
+    display:none;
 }
 
+
 .IPHONE-SIZING{
-    display: block;
+    display:block;
 }
 
 .IPAD-SIZING{
-    display: none;
+    display:none;
 }
 
 .myimage {
     width: 100vw;
     height: auto;
     position: relative;
+    object-fit: cover;
 }
 
 }
